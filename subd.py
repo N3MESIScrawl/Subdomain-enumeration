@@ -1,6 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urlunparse
+import pyfiglet
+
+text = pyfiglet.figlet_format("ZWN _ CRAWL")
+print(text)
 
 def normalize_url(url):
     # Check if the URL starts with 'www'
