@@ -1,11 +1,21 @@
-# Subdomain-enumeration
-How to use this project for subdomain enumeration: - for linux 
---clone this project in any specific folder :
-      1-open terminal 
-      2-change your directory and open where you want to copy this project
-      3-clone the project using "git clone url " command  (replace the url by project link
---now u can use it by using 
-      1-/bin/python sud.py location  (replace the subd.py location byb the location of subd.py file in this project )
-      2-enter the url and u can ready to use 
-      
+# Subdomain@enumeration 
+  A perfect tool for pentesting any website it can help you find different        domains of that particular website with subdomains
+  
+## how to use it 
+ 
+ 1 : clone the project in the directory or folder you want to
+ 
+  (replace the url by the git link of this project)
+  ```bash
+  git clone url 
+```
+ 2 : locate the file subd.py 
 
+ 3 : run that python script by the command (replace that by location of that file ) 
+
+ ```bash 
+ /bin/python location of that directory   
+ ```    
+ 4 : execute that byb hiting enter
+
+ ## ready to go 
