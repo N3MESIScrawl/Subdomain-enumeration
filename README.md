@@ -1,7 +1,8 @@
 # Subdomain@enumeration 
   A perfect tool for pentesting any website it can help you find different        domains of that particular website with subdomains
   
-## how to use it 
+## how to use subd.py
+
  
  1 : clone the project in the directory or folder you want to
  
