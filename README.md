@@ -15,7 +15,7 @@
  3 : run that python script by the command (replace that by location of that file ) 
 
  ```bash 
- /bin/python location of that directory   
+ python location of that directory   
  ```    
  4 : execute that byb hiting enter
 
