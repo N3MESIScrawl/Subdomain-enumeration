@@ -21,5 +21,5 @@
 
  ## ready to go 
 
-## Added the upgraded script of this 
+## Added the upgraded script of this (subdomain.py)
  fix the error of 403 forbidden 
