@@ -20,3 +20,6 @@
  4 : execute that byb hiting enter
 
  ## ready to go 
+
+## Added the upgraded script of this 
+ fix the error of 403 forbidden 
