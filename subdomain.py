@@ -2,6 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import pyfiglet
+import requests.packages.urllib3
+
+# Disable SSL certificate verification
+requests.packages.urllib3.disable_warnings()
 
 text = pyfiglet.figlet_format("ZWN _ CRAWL")
 print(text)
@@ -20,7 +24,7 @@ def normalize_url(url):
 def extract_domains(url):
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, verify=False)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -60,3 +64,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
