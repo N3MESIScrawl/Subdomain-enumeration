@@ -23,3 +23,5 @@
 
 ## Added the upgraded script of this (subdomain.py)
  fix the error of 403 forbidden 
+ handle ssl verification error 
+ 
